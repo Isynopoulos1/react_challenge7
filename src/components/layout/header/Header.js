@@ -1,10 +1,24 @@
 import React from "react";
 
 //IMPORT COMPONENTS
-import { HeaderContainer } from "./Header.styles";
+import {
+  HeaderContainer,
+  NavContainer,
+  Customer,
+  MyAccount,
+  MyCart
+} from "./Header.styles";
 
 const Head = () => {
-  return <HeaderContainer>hola</HeaderContainer>;
+  return (
+    <HeaderContainer>
+      <NavContainer>
+        <Customer>Customer Service</Customer>
+        <MyAccount>My Account</MyAccount>
+        <MyCart>My Cart</MyCart>
+      </NavContainer>
+    </HeaderContainer>
+  );
 };
 
 export default Head;
