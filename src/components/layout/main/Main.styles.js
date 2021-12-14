@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
   display: flex;
-  width: 100%;
-
+  position: relative;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 export const MainImg = styled.img`
   display: flex;

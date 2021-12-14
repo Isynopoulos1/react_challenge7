@@ -2,10 +2,13 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   display: flex;
+  position: relative;
   font-size: 18px;
   width: 100%;
   height: 50px;
   background-color: #ff6a13;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 export const NavContainer = styled.div`
