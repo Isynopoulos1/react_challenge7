@@ -15,6 +15,7 @@ export const MainImg = styled.img`
 `;
 export const NavMain = styled.div`
   display: flex;
+  grid-gap: 10px;
 `;
 export const Photobooks = styled.div`
   display: flex;
