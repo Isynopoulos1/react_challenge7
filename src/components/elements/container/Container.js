@@ -1,9 +1,14 @@
 import React from "react";
 
-import { ContainerBottom } from "./Container.styles";
+import { ContainerBottom, Home, Products } from "./Container.styles";
 
 const Container = () => {
-  return <ContainerBottom>alo</ContainerBottom>;
+  return (
+    <ContainerBottom>
+      <Home>Home</Home>
+      <Products>Products</Products>
+    </ContainerBottom>
+  );
 };
 
 export default Container;
