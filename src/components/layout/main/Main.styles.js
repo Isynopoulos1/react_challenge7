@@ -3,11 +3,18 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: flex;
   position: relative;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+`;
+export const MainMenu = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
 `;
 export const MainImg = styled.img`
   display: flex;
