@@ -1,5 +1,8 @@
 import React from "react";
+//IMPORT COMPONENTS
+import Container from "../../elements/container/Container";
 
+//IMPORT STYLES
 import {
   MainContainer,
   MainImg,
@@ -31,6 +34,7 @@ const Main = () => {
       </NavMain>
     </MainContainer>
   );
+  <Container />;
 };
 
 export default Main;

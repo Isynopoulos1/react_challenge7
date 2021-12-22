@@ -11,11 +11,15 @@ export const MainContainer = styled.div`
 `;
 export const MainImg = styled.img`
   display: flex;
+  position: relative;
   width: 20%;
 `;
 export const NavMain = styled.div`
   display: flex;
   grid-gap: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: helvetica;
 `;
 export const Photobooks = styled.div`
   display: flex;
@@ -37,4 +41,5 @@ export const Products = styled.div`
 `;
 export const Blog = styled.div`
   display: flex;
+  color: #38bfc4;
 `;

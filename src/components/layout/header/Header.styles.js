@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
   width: 100%;
   height: 50px;
@@ -13,6 +15,7 @@ export const HeaderContainer = styled.div`
 
 export const NavContainer = styled.div`
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   margin-left: 70%;
