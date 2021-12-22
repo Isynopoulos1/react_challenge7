@@ -4,10 +4,9 @@ export const ContainerBottom = styled.div`
   display: flex;
   font-size: 16px;
   border-bottom: 1px solid #ccc;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 97%;
   grid-gap: 10px;
+  max-width: 1440px;
 `;
 export const Home = styled.div`
   display: flex;

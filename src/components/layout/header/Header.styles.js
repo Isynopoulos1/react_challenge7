@@ -7,10 +7,9 @@ export const HeaderContainer = styled.div`
   align-items: center;
   font-size: 18px;
   width: 100%;
+  max-width: 1440px;
   height: 50px;
   background-color: #ff6a13;
-  padding-left: 10px;
-  padding-right: 10px;
 `;
 
 export const NavContainer = styled.div`

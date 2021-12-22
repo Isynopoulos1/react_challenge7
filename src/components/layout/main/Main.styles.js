@@ -5,13 +5,12 @@ export const MainContainer = styled.div`
   position: relative;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
+  max-width: 1440px;
 `;
 export const MainMenu = styled.div`
   display: flex;
   width: 100%;
+  max-width: 1440px;
   align-items: center;
   position: relative;
   justify-content: space-between;
@@ -20,12 +19,14 @@ export const MainImg = styled.img`
   display: flex;
   position: relative;
   width: 20%;
+  margin-left: 20px;
 `;
 export const NavMain = styled.div`
   display: flex;
+  margin-right: 20px;
   grid-gap: 10px;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   font-family: helvetica;
 `;
 export const Photobooks = styled.div`
