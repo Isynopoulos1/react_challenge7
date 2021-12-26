@@ -1,6 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 //IMPORT COMPONENTS
+import Menu from "../../elements/menu/Menu";
+//IMPORT STYLES
 import {
   HeaderContainer,
   NavContainer,
@@ -9,11 +12,13 @@ import {
   MyCart
 } from "./Header.styles";
 
-const Head = () => {
+const Header = ({ placeholder, icon }) => {
   return (
     <HeaderContainer>
       <NavContainer>
-        <Customer>Customer Service</Customer>
+        <Customer>
+          <Menu placeholder="lala" icon="search" />
+        </Customer>
         <MyAccount>My Account</MyAccount>
         <MyCart>My Cart</MyCart>
       </NavContainer>
@@ -21,4 +26,4 @@ const Head = () => {
   );
 };
 
-export default Head;
+export default Header;
