@@ -17,7 +17,7 @@ const Header = ({ placeholder, icon }) => {
     <HeaderContainer>
       <NavContainer>
         <Customer>
-          <Menu placeholder="lala" icon="search" />
+          <Menu placeholder="customer" icon="search" />
         </Customer>
         <MyAccount>My Account</MyAccount>
         <MyCart>My Cart</MyCart>

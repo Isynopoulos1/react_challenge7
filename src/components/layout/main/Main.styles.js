@@ -51,3 +51,43 @@ export const Blog = styled.div`
   display: flex;
   color: #38bfc4;
 `;
+
+export const PromoBar = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #38bfc4;
+  width: 97%;
+  height: 60px;
+  margin-top: 10px;
+  grid-gap: 5px;
+`;
+export const Text1 = styled.div`
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: helvetica;
+  width: 250px;
+  border-right: 1px solid white;
+  padding-right: 6px;
+`;
+export const Text2 = styled.div`
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: helvetica;
+  border-right: 1px solid white;
+  padding-right: 6px;
+  width: 150px;
+`;
+export const Text3 = styled.div`
+  display: flex;
+  color: white;
+  font-family: helvetica;
+  width: 250px;
+  justify-content: center;
+  font-family: helvetica;
+  border-right: 1px solid white;
+  padding-right: 6px;
+`;

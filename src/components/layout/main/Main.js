@@ -14,7 +14,11 @@ import {
   WallArt,
   Products,
   Blog,
-  MainMenu
+  MainMenu,
+  PromoBar,
+  Text1,
+  Text2,
+  Text3
 } from "./Main.styles";
 
 const Main = () => {
@@ -35,8 +39,12 @@ const Main = () => {
           <Blog>Blog</Blog>
         </NavMain>
       </MainMenu>
-
       <Container />
+      <PromoBar>
+        <Text1>Up to 60% off selected products</Text1>
+        <Text2>Code: SALES60</Text2>
+        <Text3> Ends 05:59pm, 06-01</Text3>
+      </PromoBar>
     </MainContainer>
   );
 };
