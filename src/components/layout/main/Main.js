@@ -18,7 +18,10 @@ import {
   PromoBar,
   Text1,
   Text2,
-  Text3
+  Text3,
+  Sales,
+  Offer,
+  Sections
 } from "./Main.styles";
 
 const Main = () => {
@@ -41,9 +44,14 @@ const Main = () => {
       </MainMenu>
       <Container />
       <PromoBar>
-        <Text1>Up to 60% off selected products</Text1>
-        <Text2>Code: SALES60</Text2>
-        <Text3> Ends 05:59pm, 06-01</Text3>
+        <Sections>
+          <Text1>Up to 60% off selected products</Text1>
+          <Text2>
+            Code: <Sales>SALES60</Sales>
+          </Text2>
+          <Text3> Ends 05:59pm, 06-01</Text3>
+        </Sections>
+        <Offer>Offer Details</Offer>
       </PromoBar>
     </MainContainer>
   );

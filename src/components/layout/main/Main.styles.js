@@ -54,7 +54,6 @@ export const Blog = styled.div`
 
 export const PromoBar = styled.div`
   display: flex;
-  width: 100%;
   justify-content: center;
   align-items: center;
   background-color: #38bfc4;
@@ -63,10 +62,16 @@ export const PromoBar = styled.div`
   margin-top: 10px;
   grid-gap: 5px;
 `;
+export const Sections = styled.div`
+  display: flex;
+  justify-content: space-space-between;
+  align-items: center;
+`;
 export const Text1 = styled.div`
   display: flex;
   justify-content: center;
   color: white;
+  font-weight: 500;
   font-family: helvetica;
   width: 250px;
   border-right: 1px solid white;
@@ -76,6 +81,7 @@ export const Text2 = styled.div`
   display: flex;
   justify-content: center;
   color: white;
+  font-weight: lighter;
   font-family: helvetica;
   border-right: 1px solid white;
   padding-right: 6px;
@@ -84,10 +90,22 @@ export const Text2 = styled.div`
 export const Text3 = styled.div`
   display: flex;
   color: white;
+  font-weight: lighter;
   font-family: helvetica;
   width: 250px;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 10px;
   font-family: helvetica;
-  border-right: 1px solid white;
-  padding-right: 6px;
+`;
+export const Sales = styled.div`
+  font-weight: bolder;
+  font-family: helvetica;
+`;
+
+export const Offer = styled.div`
+  display: flex;
+  width: 10%;
+  margin-right: 10px;
+  color: white;
+  font-family: helvetica;
 `;
