@@ -66,6 +66,9 @@ export const Sections = styled.div`
   display: flex;
   justify-content: space-space-between;
   align-items: center;
+  width: 50%;
+  padding-right: 200px;
+  padding-left: 200px;
 `;
 export const Text1 = styled.div`
   display: flex;
@@ -104,7 +107,7 @@ export const Sales = styled.div`
 
 export const Offer = styled.div`
   display: flex;
-  width: 10%;
+  justify-content: flex-start;
   margin-right: 10px;
   color: white;
   font-family: helvetica;
