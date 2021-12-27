@@ -23,12 +23,13 @@ export const NavContainer = styled.div`
 `;
 export const Customer = styled.div`
   display: flex;
+  font-family: "Material Icons";
+  font-size: 10px;
   justify-content: center;
   align-items: center;
   width: 30%;
   height: 50px;
   color: white;
-  font-size: 13px;
   font-family: helvetica;
   border-right: thin solid #ff8a46;
 `;

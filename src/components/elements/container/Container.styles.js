@@ -7,6 +7,7 @@ export const ContainerBottom = styled.div`
   width: 97%;
   grid-gap: 10px;
   max-width: 1440px;
+  padding-bottom: 10px;
 `;
 export const Home = styled.div`
   display: flex;

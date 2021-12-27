@@ -16,11 +16,13 @@ const Header = ({ placeholder, icon }) => {
   return (
     <HeaderContainer>
       <NavContainer>
-        <Customer>
+        <Customer placeholder="customer" icon="search" />
+        <MyAccount>
           <Menu placeholder="customer" icon="search" />
-        </Customer>
-        <MyAccount>My Account</MyAccount>
-        <MyCart>My Cart</MyCart>
+        </MyAccount>
+        <MyCart>
+          <Menu placeholder="customer" icon="shopping_cart" />
+        </MyCart>
       </NavContainer>
     </HeaderContainer>
   );

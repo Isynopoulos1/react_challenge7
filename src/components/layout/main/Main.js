@@ -1,6 +1,7 @@
 import React from "react";
 //IMPORT COMPONENTS
 import Container from "../../elements/container/Container";
+import Photo from "../../elements/photo/Photo";
 
 //IMPORT STYLES
 import {
@@ -53,6 +54,7 @@ const Main = () => {
         </Sections>
         <Offer>Offer Details</Offer>
       </PromoBar>
+      <Photo />
     </MainContainer>
   );
 };

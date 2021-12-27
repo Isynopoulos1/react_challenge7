@@ -64,11 +64,10 @@ export const PromoBar = styled.div`
 `;
 export const Sections = styled.div`
   display: flex;
-  justify-content: space-space-between;
+  padding-left: 350px;
+  justify-content: center;
   align-items: center;
   width: 50%;
-  padding-right: 200px;
-  padding-left: 200px;
 `;
 export const Text1 = styled.div`
   display: flex;
@@ -108,7 +107,7 @@ export const Sales = styled.div`
 export const Offer = styled.div`
   display: flex;
   justify-content: flex-start;
-  margin-right: 10px;
+  padding-left: 20px;
   color: white;
   font-family: helvetica;
 `;

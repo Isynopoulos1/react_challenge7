@@ -19,7 +19,7 @@ Menu.propTypes = {
 
 Menu.defaultProps = {
   placeholder: "text",
-  icon1: ""
+  icon1: "search"
 };
 
 export default Menu;
