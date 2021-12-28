@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 //IMPORT COMPONENTS
 import Menu from "../../elements/menu/Menu";
@@ -12,16 +11,18 @@ import {
   MyCart
 } from "./Header.styles";
 
-const Header = ({ placeholder, icon }) => {
+const Header = ({ placeholder, icon1 }) => {
   return (
     <HeaderContainer>
       <NavContainer>
-        <Customer placeholder="customer" icon="search" />
+        <Customer>
+          <Menu placeholder="customer" icon1="help_outline" />
+        </Customer>
         <MyAccount>
-          <Menu placeholder="customer" icon="search" />
+          <Menu placeholder="customer" icon1="person" />
         </MyAccount>
         <MyCart>
-          <Menu placeholder="customer" icon="shopping_cart" />
+          <Menu placeholder="customer" icon1="shopping_cart" />
         </MyCart>
       </NavContainer>
     </HeaderContainer>
