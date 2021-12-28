@@ -54,7 +54,7 @@ export const Blog = styled.div`
 
 export const PromoBar = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #38bfc4;
   width: 97%;
@@ -64,10 +64,9 @@ export const PromoBar = styled.div`
 `;
 export const Sections = styled.div`
   display: flex;
-  padding-left: 350px;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  margin-left: 360px;
 `;
 export const Text1 = styled.div`
   display: flex;
@@ -106,6 +105,7 @@ export const Sales = styled.div`
 
 export const Offer = styled.div`
   display: flex;
+  margin-right: 20px;
   justify-content: flex-start;
   padding-left: 20px;
   color: white;
