@@ -42,6 +42,7 @@ export const MyAccount = styled.div`
   font-size: 13px;
   font-family: helvetica;
   border-right: thin solid #ff8a46;
+  padding-left: 10px;
 `;
 export const MyCart = styled.div`
   display: flex;
@@ -52,4 +53,5 @@ export const MyCart = styled.div`
   height: 50px;
   font-size: 13px;
   font-family: helvetica;
+  padding-left: 10px;
 `;

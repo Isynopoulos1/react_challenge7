@@ -7,7 +7,10 @@ export const Icon1 = styled.i`
 `;
 export const MenuNav = styled.div`
   display: flex;
+  margin-right: auto;
 `;
 export const NameNav = styled.div`
   color: white;
+  font-family: "Material Icons";
+  font-size: 18px;
 `;
