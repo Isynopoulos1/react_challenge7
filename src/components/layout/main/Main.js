@@ -2,6 +2,7 @@ import React from "react";
 //IMPORT COMPONENTS
 import Container from "../../elements/container/Container";
 import Photo from "../../elements/photo/Photo";
+import Toggle from "../../elements/toggle/Toggle";
 
 //IMPORT STYLES
 import {
@@ -21,11 +22,11 @@ import {
   Text2,
   Text3,
   Sales,
-  Offer,
-  Sections
+  Sections,
+  ToggleBar
 } from "./Main.styles";
 
-const Main = ({ icon2 }) => {
+const Main = ({ icon2, icon3 }) => {
   return (
     <MainContainer>
       <MainMenu>
@@ -52,7 +53,9 @@ const Main = ({ icon2 }) => {
           </Text2>
           <Text3> Ends 05:59pm, 06-01</Text3>
         </Sections>
-        <Offer>Offer Details</Offer>
+        <ToggleBar>
+          <Toggle placeholder="Offer Details" icon3="navigate_next" />
+        </ToggleBar>
       </PromoBar>
       <Photo />
     </MainContainer>

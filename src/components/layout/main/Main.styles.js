@@ -15,6 +15,10 @@ export const MainMenu = styled.div`
   position: relative;
   justify-content: space-between;
 `;
+export const ToggleBar = styled.div`
+  display: flex;
+  margin-right: 20px;
+`;
 export const MainImg = styled.img`
   display: flex;
   position: relative;
@@ -100,14 +104,5 @@ export const Text3 = styled.div`
 `;
 export const Sales = styled.div`
   font-weight: bolder;
-  font-family: helvetica;
-`;
-
-export const Offer = styled.div`
-  display: flex;
-  margin-right: 20px;
-  justify-content: flex-start;
-  padding-left: 20px;
-  color: white;
   font-family: helvetica;
 `;
