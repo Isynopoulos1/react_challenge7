@@ -25,7 +25,7 @@ import {
   Sections
 } from "./Main.styles";
 
-const Main = () => {
+const Main = ({ icon2 }) => {
   return (
     <MainContainer>
       <MainMenu>
@@ -43,7 +43,7 @@ const Main = () => {
           <Blog>Blog</Blog>
         </NavMain>
       </MainMenu>
-      <Container />
+      <Container icon2="navigate_next" />
       <PromoBar>
         <Sections>
           <Text1>Up to 60% off selected products</Text1>

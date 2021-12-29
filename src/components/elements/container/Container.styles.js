@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContainerBottom = styled.div`
   display: flex;
+  align-items: center;
   font-size: 16px;
   border-bottom: 1px solid #ccc;
   width: 97%;
@@ -20,4 +21,9 @@ export const Products = styled.div`
   color: #777;
   font-family: helvetica;
   font-size: 13px;
+`;
+export const Arrow = styled.i`
+  color: gray;
+  font-family: "Material Icons";
+  font-size: 18px;
 `;
