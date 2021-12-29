@@ -16,13 +16,13 @@ const Header = ({ placeholder, icon1 }) => {
     <HeaderContainer>
       <NavContainer>
         <Customer>
-          <Menu placeholder="customer" icon1="help_outline" />
+          <Menu placeholder="Customer" icon1="help_outline" />
         </Customer>
         <MyAccount>
-          <Menu placeholder="customer" icon1="person" />
+          <Menu placeholder="My account" icon1="person" />
         </MyAccount>
         <MyCart>
-          <Menu placeholder="customer" icon1="shopping_cart" />
+          <Menu placeholder="My cart" icon1="shopping_cart" />
         </MyCart>
       </NavContainer>
     </HeaderContainer>

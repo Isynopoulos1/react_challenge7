@@ -7,8 +7,8 @@ import { Icon1, MenuNav, NameNav } from "./Menu.styles";
 const Menu = ({ icon1, placeholder }) => {
   return (
     <MenuNav>
-      <NameNav placeholder={placeholder} />
       <Icon1>{icon1}</Icon1>
+      <NameNav>{placeholder}</NameNav>
     </MenuNav>
   );
 };
