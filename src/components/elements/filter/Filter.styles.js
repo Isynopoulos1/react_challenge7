@@ -48,3 +48,8 @@ export const Blog = styled.div`
   font-weight: bolder;
   color: #38bfc4;
 `;
+export const Next = styled.div`
+  color: black;
+  font-family: "Material Icons";
+  font-size: 18px;
+`;

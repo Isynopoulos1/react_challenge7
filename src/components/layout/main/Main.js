@@ -35,7 +35,7 @@ const Main = ({ icon2, icon3 }) => {
           src="https://ik.imagekit.io/ppayaz/react_challenge7/Captura_de_Pantalla_2021-12-12_a_la_s__20.01.25_b1cOpCp6V.png?updatedAt=1639360933226"
           alt="logo"
         />
-        <Filter />
+        <Filter icon3="navigate_next" />
       </MainMenu>
       <Container icon2="navigate_next" />
       <PromoBar>
