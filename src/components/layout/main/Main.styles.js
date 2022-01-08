@@ -33,29 +33,6 @@ export const NavMain = styled.div`
   font-weight: 600;
   font-family: helvetica;
 `;
-export const Photobooks = styled.div`
-  display: flex;
-`;
-export const Calendars = styled.div`
-  display: flex;
-`;
-export const Cards = styled.div`
-  display: flex;
-`;
-export const Prints = styled.div`
-  display: flex;
-`;
-export const WallArt = styled.div`
-  display: flex;
-`;
-export const Products = styled.div`
-  display: flex;
-`;
-export const Blog = styled.div`
-  display: flex;
-  color: #38bfc4;
-`;
-
 export const PromoBar = styled.div`
   display: flex;
   justify-content: space-between;
