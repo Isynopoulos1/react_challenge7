@@ -4,6 +4,7 @@ import Container from "../../elements/container/Container";
 import Photo from "../../elements/photo/Photo";
 import Toggle from "../../elements/toggle/Toggle";
 import Filter from "../../elements/filter/Filter";
+import Card from "../../elements/card/Card";
 
 //IMPORT STYLES
 import {
@@ -51,6 +52,7 @@ const Main = ({ icon2, icon3 }) => {
         </ToggleBar>
       </PromoBar>
       <Photo />
+      <Card />
     </MainContainer>
   );
 };
