@@ -1,9 +1,15 @@
 import React from "react";
 
-import { CardContainer } from "./Card.styles";
+import { CardContainer, CardImage, Price, Products } from "./Card.styles";
 
 const Card = () => {
-  return <CardContainer>hola</CardContainer>;
+  return (
+    <CardContainer>
+      <CardImage></CardImage>
+      <Products></Products>
+      <Price></Price>
+    </CardContainer>
+  );
 };
 
 export default Card;
