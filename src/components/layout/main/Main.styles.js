@@ -83,3 +83,6 @@ export const Sales = styled.div`
   font-weight: bolder;
   font-family: helvetica;
 `;
+export const Card1 = styled.div`
+  display: flex;
+`;

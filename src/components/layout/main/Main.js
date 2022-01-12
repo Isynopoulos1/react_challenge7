@@ -25,10 +25,11 @@ import {
   Text3,
   Sales,
   Sections,
-  ToggleBar
+  ToggleBar,
+  Card1
 } from "./Main.styles";
 
-const Main = ({ icon2, icon3 }) => {
+const Main = ({ icon2, icon3, product, price }) => {
   return (
     <MainContainer>
       <MainMenu>
@@ -52,7 +53,9 @@ const Main = ({ icon2, icon3 }) => {
         </ToggleBar>
       </PromoBar>
       <Photo />
-      <Card />
+      <Card1>
+        <Card product="Offer Details" price="navigate_next" />
+      </Card1>
     </MainContainer>
   );
 };
