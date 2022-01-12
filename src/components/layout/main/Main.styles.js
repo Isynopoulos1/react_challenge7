@@ -86,3 +86,9 @@ export const Sales = styled.div`
 export const Card1 = styled.div`
   display: flex;
 `;
+export const ProductBlock = styled.div`
+  display: flex;
+`;
+export const Items = styled.div`
+  display: flex;
+`;

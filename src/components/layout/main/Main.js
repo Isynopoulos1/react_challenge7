@@ -26,10 +26,12 @@ import {
   Sales,
   Sections,
   ToggleBar,
-  Card1
+  Card1,
+  ProductBlock,
+  Items
 } from "./Main.styles";
 
-const Main = ({ icon2, icon3, product, price }) => {
+const Main = ({ icon2, icon3, product, price, list1 }) => {
   return (
     <MainContainer>
       <MainMenu>
@@ -53,9 +55,9 @@ const Main = ({ icon2, icon3, product, price }) => {
         </ToggleBar>
       </PromoBar>
       <Photo />
-      <Card1>
-        <Card product="Offer Details" price="navigate_next" />
-      </Card1>
+      <ProductBlock>
+        <Items list={list1} />
+      </ProductBlock>
     </MainContainer>
   );
 };
