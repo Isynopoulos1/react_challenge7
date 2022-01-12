@@ -1,11 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { CardContainer, CardImage, Price, Products } from "./Card.styles";
+import {
+  CardContainer,
+  CardImage,
+  Price,
+  Products,
+  Discount
+} from "./Card.styles";
 
-const Card = ({ image, product, price }) => {
+const Card = ({ image, product, price, discount }) => {
   return (
     <CardContainer>
+      <Discount>{discount}</Discount>
       <CardImage>{image}</CardImage>
       <Products>{product}</Products>
       <Price>{price}</Price>
@@ -13,12 +20,14 @@ const Card = ({ image, product, price }) => {
   );
 };
 Card.propTypes = {
+  discount: PropTypes.string,
   image: PropTypes.string,
   product: PropTypes.string,
   price: PropTypes.string
 };
 
 Card.defaultProps = {
+  discount: "",
   image: "",
   product: "",
   price: ""

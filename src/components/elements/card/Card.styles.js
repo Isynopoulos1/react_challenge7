@@ -26,3 +26,8 @@ export const Price = styled.div`
   display: flex;
   margin-top: 10px;
 `;
+
+export const Discount = styled.div`
+  display: flex;
+  margin-top: 10px;
+`;
