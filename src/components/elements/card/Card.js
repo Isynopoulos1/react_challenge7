@@ -13,7 +13,7 @@ const Card = ({ image, product, price, discount }) => {
   return (
     <CardContainer>
       <Discount>{discount}</Discount>
-      <CardImage>{image}</CardImage>
+      <CardImage src={image} alt="logo" />
       <Products>{product}</Products>
       <Price>{price}</Price>
     </CardContainer>

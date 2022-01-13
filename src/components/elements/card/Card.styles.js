@@ -11,7 +11,7 @@ export const CardContainer = styled.div`
   height: 338px;
   border: 1px solid #555;
 `;
-export const CardImage = styled.div`
+export const CardImage = styled.img`
   display: flex;
   width: 100%;
   height: 250px;

@@ -5,6 +5,7 @@ import Photo from "../../elements/photo/Photo";
 import Toggle from "../../elements/toggle/Toggle";
 import Filter from "../../elements/filter/Filter";
 import Card from "../../elements/card/Card";
+import Items from "../../elements/items/Items";
 
 //IMPORT STYLES
 import {
@@ -27,11 +28,13 @@ import {
   Sections,
   ToggleBar,
   Card1,
-  ProductBlock,
-  Items
+  ProductBlock
 } from "./Main.styles";
 
-const Main = ({ icon2, icon3, product, price, list1 }) => {
+//IMPORT DATA
+import { list1 } from "../../elements/data/cards";
+
+const Main = () => {
   return (
     <MainContainer>
       <MainMenu>
