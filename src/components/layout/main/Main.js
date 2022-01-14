@@ -32,7 +32,7 @@ import {
 } from "./Main.styles";
 
 //IMPORT DATA
-import { list1 } from "../../elements/data/cards";
+import { list1, list2 } from "../../elements/data/cards";
 
 const Main = () => {
   return (
@@ -60,6 +60,7 @@ const Main = () => {
       <Photo />
       <ProductBlock>
         <Items list={list1} />
+        <Items list={list2} />
       </ProductBlock>
     </MainContainer>
   );

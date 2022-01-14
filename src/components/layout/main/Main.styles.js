@@ -88,6 +88,7 @@ export const Card1 = styled.div`
 `;
 export const ProductBlock = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 export const Items = styled.div`
   display: flex;
