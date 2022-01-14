@@ -6,13 +6,16 @@ import {
   CardImage,
   Price,
   Products,
-  Discount
+  Discount,
+  Box
 } from "./Card.styles";
 
 const Card = ({ image, product, price, discount }) => {
   return (
     <CardContainer>
-      <Discount>{discount}</Discount>
+      <Discount>
+        <Box>{discount}</Box>
+      </Discount>
       <CardImage src={image} alt="logo" />
       <Products>{product}</Products>
       <Price>{price}</Price>
