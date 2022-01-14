@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   display: flex;
+  position: relative;
   flex-direction: column;
   font-family: helvetica;
   color: #555;
@@ -9,11 +10,19 @@ export const CardContainer = styled.div`
   width: 40%;
   height: 338px;
   border: 1px solid #ccc;
+  overflow: hidden;
 `;
 export const CardImage = styled.img`
   display: flex;
+
   width: 100%;
   height: 250px;
+    -webkit-transition: all .2s ease-in-out;
+&:hover{
+  -webkit-transform: scale(1.4);
+}
+
+}
 `;
 export const Products = styled.div`
   display: flex;
@@ -39,6 +48,7 @@ export const Discount = styled.div`
 `;
 export const Box = styled.div`
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   width: 70px;
