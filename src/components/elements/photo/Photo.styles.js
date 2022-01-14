@@ -27,4 +27,5 @@ export const Content = styled.div`
   font-family: helvetica;
   font-size: 15px;
   font-weight: lighter;
+  margin-bottom: 30px;
 `;
