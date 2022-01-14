@@ -8,4 +8,6 @@ export const ItemsWrapper = styled.div`
 export const Cards = styled.div`
   display: flex;
   width: 100%;
+  grid-gap: 20px;
+  margin-bottom: 20px;
 `;

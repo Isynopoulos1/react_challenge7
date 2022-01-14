@@ -7,9 +7,9 @@ export const CardContainer = styled.div`
   color: #555;
   align-items: center;
   font-size: 15px;
-  width: 270px;
+  width: 40%;
   height: 338px;
-  border: 1px solid #555;
+  border: 1px solid #ccc;
 `;
 export const CardImage = styled.img`
   display: flex;
