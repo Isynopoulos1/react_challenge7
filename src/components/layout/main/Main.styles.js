@@ -89,6 +89,7 @@ export const Card1 = styled.div`
 export const ProductBlock = styled.div`
   display: flex;
   flex-direction: column;
+  width: 95%;
 `;
 export const Items = styled.div`
   display: flex;

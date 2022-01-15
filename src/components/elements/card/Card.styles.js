@@ -7,21 +7,24 @@ export const CardContainer = styled.div`
   font-family: helvetica;
   color: #555;
   font-size: 15px;
-  width: 40%;
+  width: 50%;
   height: 338px;
   border: 1px solid #ccc;
+`;
+export const CardBox = styled.div`
+  display: flex;
+  width: 100%;
+
   overflow: hidden;
 `;
 export const CardImage = styled.img`
   display: flex;
-
   width: 100%;
-  height: 250px;
-    -webkit-transition: all .2s ease-in-out;
+  height: auto;
+    -webkit-transition: all .5s ease-in-out;
 &:hover{
   -webkit-transform: scale(1.4);
 }
-
 }
 `;
 export const Products = styled.div`

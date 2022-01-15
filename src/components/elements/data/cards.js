@@ -46,7 +46,7 @@ export const list2 = [
   {
     discount: "30%",
     image:
-      "https://ik.imagekit.io/ppayaz/react_challenge7/1_2MKUb3_UC?ik-sdk-version=javascript-1.4.3&updatedAt=1642134073538",
+      "https://ik.imagekit.io/ppayaz/react_challenge7/4_zgenkL_W4gy?ik-sdk-version=javascript-1.4.3&updatedAt=1642205277213",
     product: "right HUB 宁波戴宅",
     price: "Varios propietarios"
   },
