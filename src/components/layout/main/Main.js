@@ -28,7 +28,9 @@ import {
   Sections,
   ToggleBar,
   Card1,
-  ProductBlock
+  ProductBlock,
+  CtaBlock,
+  Cta
 } from "./Main.styles";
 
 //IMPORT DATA
@@ -62,6 +64,9 @@ const Main = () => {
         <Items list={list1} />
         <Items list={list2} />
       </ProductBlock>
+      <CtaBlock>
+        <Cta>Give your photos the treatment they deserve</Cta>
+      </CtaBlock>
     </MainContainer>
   );
 };

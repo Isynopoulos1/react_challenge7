@@ -94,3 +94,16 @@ export const ProductBlock = styled.div`
 export const Items = styled.div`
   display: flex;
 `;
+export const CtaBlock = styled.div`
+  display: flex;
+  margin-top: 20px;
+  left: 0;
+`;
+export const Cta = styled.div`
+  display: flex;
+  align-items: flex-start;
+  font-size: 25px;
+  font-family: helvetica;
+  font-weight: 500;
+  text-align: left;
+`;

@@ -10,8 +10,9 @@ export const CardContainer = styled.div`
   width: 50%;
   height: 338px;
   border: 1px solid #ccc;
+  -webkit-transition: all 0.5s ease-in-out;
   &:hover {
-    box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 3px -6px #ccc;
   }
 `;
 export const CardBox = styled.div`
@@ -49,7 +50,7 @@ export const Discount = styled.div`
   display: flex;
   position: absolute;
   margin-left: 10px;
-  position: absolute;
+
   margin-top: 10px;
 `;
 export const Box = styled.div`
