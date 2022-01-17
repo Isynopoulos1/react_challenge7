@@ -76,6 +76,7 @@ const Main = () => {
         </MainText>
         <Cta>Read More</Cta>
       </CtaBlock>
+      <Newsletter />
     </MainContainer>
   );
 };
