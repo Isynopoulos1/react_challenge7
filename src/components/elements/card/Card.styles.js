@@ -50,7 +50,6 @@ export const Discount = styled.div`
   display: flex;
   position: absolute;
   margin-left: 10px;
-
   margin-top: 10px;
 `;
 export const Box = styled.div`

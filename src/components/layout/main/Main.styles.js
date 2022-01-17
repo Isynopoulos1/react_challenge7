@@ -96,14 +96,38 @@ export const Items = styled.div`
 `;
 export const CtaBlock = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-top: 20px;
-  left: 0;
+  width: 100%;
+  margin-left: 70px;
 `;
-export const Cta = styled.div`
+export const MainTitle = styled.div`
   display: flex;
-  align-items: flex-start;
   font-size: 25px;
   font-family: helvetica;
   font-weight: 500;
+  margin-bottom: 20px;
+`;
+
+export const mainTitle = styled.p`
+  display: flex;
   text-align: left;
+  font-size: 15px;
+  font-family: helvetica;
+  color: orange;
+`;
+export const MainText = styled.div`
+  display: flex;
+  font-size: 15px;
+  font-family: helvetica;
+  color: #555;
+  margin-bottom: 20px;
+`;
+export const Cta = styled.div`
+  display: flex;
+  color: #f57652;
+  font-size: 15px;
+  font-family: helvetica;
+  margin-bottom: 20px;
 `;

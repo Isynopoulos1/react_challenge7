@@ -6,6 +6,7 @@ import Toggle from "../../elements/toggle/Toggle";
 import Filter from "../../elements/filter/Filter";
 import Card from "../../elements/card/Card";
 import Items from "../../elements/items/Items";
+import Newsletter from "../../elements/newsletter/Newsletter";
 
 //IMPORT STYLES
 import {
@@ -30,7 +31,9 @@ import {
   Card1,
   ProductBlock,
   CtaBlock,
-  Cta
+  Cta,
+  MainTitle,
+  MainText
 } from "./Main.styles";
 
 //IMPORT DATA
@@ -65,7 +68,13 @@ const Main = () => {
         <Items list={list2} />
       </ProductBlock>
       <CtaBlock>
-        <Cta>Give your photos the treatment they deserve</Cta>
+        <MainTitle>Give your photos the treatment they deserve</MainTitle>
+        <MainText>
+          If your pictures are scattered all over social media and various
+          devices, why not print them? With bonusprint you can print your photo
+          products with the highest quality...
+        </MainText>
+        <Cta>Read More</Cta>
       </CtaBlock>
     </MainContainer>
   );
