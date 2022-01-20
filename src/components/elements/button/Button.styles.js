@@ -12,6 +12,7 @@ export const BtnWrapper = styled.button`
   width: 100px;
   height: 40px;
   margin-left: 20px;
+  cursor: pointer;
   &:hover {
     background-color: #38bfc4;
     color: white;

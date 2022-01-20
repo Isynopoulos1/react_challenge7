@@ -130,4 +130,5 @@ export const Cta = styled.div`
   font-size: 15px;
   font-family: helvetica;
   margin-bottom: 20px;
+  cursor: pointer;
 `;
