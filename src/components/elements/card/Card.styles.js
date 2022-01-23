@@ -17,6 +17,7 @@ export const CardContainer = styled.div`
 `;
 export const CardBox = styled.div`
   display: flex;
+  position: relative;
   width: 100%;
   overflow: hidden;
 `;
@@ -24,11 +25,10 @@ export const CardImage = styled.img`
   display: flex;
   width: 100%;
   height: auto;
-    -webkit-transition: all .5s ease-in-out;
-&:hover{
-  -webkit-transform: scale(1.4);
-}
-}
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.4);
+  }
 `;
 export const Products = styled.div`
   display: flex;
@@ -49,12 +49,9 @@ export const Price = styled.div`
 export const Discount = styled.div`
   display: flex;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
-`;
-export const Box = styled.div`
-  display: flex;
-  position: absolute;
+  z-index: 2;
+  left: 10px;
+  top: 10px;
   justify-content: center;
   align-items: center;
   width: 70px;

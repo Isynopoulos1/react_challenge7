@@ -7,7 +7,8 @@ export const Icon1 = styled.i`
 `;
 export const MenuNav = styled.div`
   display: flex;
-  margin-right: auto;
+  width: 187px;
+  justify-content: center;
 `;
 export const NameNav = styled.div`
   display: flex;

@@ -6,6 +6,10 @@ export const MainContainer = styled.div`
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
+  margin: 0 auto;
+`;
+export const MainWrapper = styled.div`
+  width: 100%;
 `;
 export const MainMenu = styled.div`
   display: flex;

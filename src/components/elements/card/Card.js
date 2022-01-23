@@ -7,16 +7,13 @@ import {
   Price,
   Products,
   Discount,
-  Box,
-  CardBox
+  CardBox,
 } from "./Card.styles";
 
 const Card = ({ image, product, price, discount }) => {
   return (
     <CardContainer>
-      <Discount>
-        <Box>{discount}</Box>
-      </Discount>
+      <Discount>{discount}</Discount>
       <CardBox>
         <CardImage src={image} alt="logo" />
       </CardBox>
@@ -29,14 +26,14 @@ Card.propTypes = {
   discount: PropTypes.string,
   image: PropTypes.string,
   product: PropTypes.string,
-  price: PropTypes.string
+  price: PropTypes.string,
 };
 
 Card.defaultProps = {
   discount: "",
   image: "",
   product: "",
-  price: ""
+  price: "",
 };
 
 export default Card;
